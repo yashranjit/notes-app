@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist",
+
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "ES2024",
+
+    "types": ["node"],
+
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "drizzle.config.ts"],
+  "exclude": ["dist", "node_modules"]
+}
